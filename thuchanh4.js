@@ -1,3 +1,4 @@
+function bai1() {
 let browser = prompt("Enter browser name!")
 switch(browser){
     case "Edge":
@@ -11,6 +12,34 @@ switch(browser){
         break;
         default:
            alert("We hope that this page looks ok!");
+}}
+function bai2() {
+    let a = prompt('a?','');
+    switch (a) {
+        case "0":
+            alert("0");
+            break;
+            case "1":
+                alert("1");
+                break;
+        case  "2":
+        case    "3":
+            alert("2,3");
+            break;
 
+    }
+}
+function bai3() {
+   let a= prompt("a")
+   let b = prompt("b")
+   result = ((a + b)<4) ? " Below" : "Over" ;
+   alert(result );
 
 }
+function bai4() {
+    let message = prompt("nhapvao")
+    result = (message === 'Employee')? "Hello":
+   (message === 'Director')? "Greeting":
+   (message === '')? "No login" : "" ;
+
+    alert(result );}
