@@ -29,17 +29,3 @@ function bai2() {
 
     }
 }
-function bai3() {
-   let a= prompt("a")
-   let b = prompt("b")
-   result = ((a + b)<4) ? " Below" : "Over" ;
-   alert(result );
-
-}
-function bai4() {
-    let message = prompt("nhapvao")
-    result = (message === 'Employee')? "Hello":
-   (message === 'Director')? "Greeting":
-   (message === '')? "No login" : "" ;
-
-    alert(result );}
