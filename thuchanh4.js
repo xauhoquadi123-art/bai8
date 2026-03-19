@@ -29,3 +29,17 @@ function bai2() {
 
     }
 }
+function bai3() {
+    let a = prompt("a")
+    let b = prompt("b")
+    result = ((a + b)<4) ? " Below" : "Over";
+    alert (result);
+
+}
+function bai4() {
+    let messinge = prompt("nhapvao")
+     result = (messinge === 'Employee')? "Hello":
+         (messinge === 'Director')? "Greetings":
+             (messinge === '')? "No login":"";
+    alert (result);
+}
