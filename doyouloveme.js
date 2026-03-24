@@ -7,4 +7,4 @@ function myFunction2() {
     let y = Math.random() * window.innerHeight;
     abc.style.left = x + "px";
     abc.style.top = y + "px";
-}
+}dgd
